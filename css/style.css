@@ -53,7 +53,7 @@ header .container {
 }
 
 .header__content .header__logo img:hover {
-    box-shadow: #94ADD7 5px 5px 25px;
+    box-shadow: #93FDDE 5px 5px 20px;
     transition: box-shadow 0.3s ease-in-out;    
 }
 
