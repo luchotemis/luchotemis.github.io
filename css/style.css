@@ -11,7 +11,7 @@ html * {
 }
 
 body {
-    background-color: #E8FFCE;
+    background-color: #F7F7F7;
 }
 
 /* STARTING HEADER STYLES */
@@ -37,7 +37,7 @@ header .container {
 }
 
 .header__content .header__logo h1 a:hover {
-    color: #94ADD7;
+    color: #976fec;
     transition: color 0.3s ease-in-out;
 }
 
@@ -53,7 +53,7 @@ header .container {
 }
 
 .header__content .header__logo img:hover {
-    box-shadow: #93FDDE 5px 5px 20px;
+    box-shadow: #976fec 5px 5px 20px;
     transition: box-shadow 0.3s ease-in-out;    
 }
 
@@ -75,7 +75,7 @@ header .container {
 }
 
 .header__menu .social-link:hover {
-    filter: brightness(0) saturate(100%) invert(76%) sepia(11%) saturate(1225%) hue-rotate(183deg) brightness(91%) contrast(83%);
+    filter: brightness(0) saturate(100%) invert(49%) sepia(21%) saturate(4426%) hue-rotate(227deg) brightness(98%) contrast(89%);
     transition: filter 0.3s ease-in-out;
 }
 
@@ -113,21 +113,23 @@ header .container {
 
 .main .buttons .buttons__item .buttons__link {
     background-color: #fff ;
-    padding: 0.5rem .75rem;
-    border: 1px solid #000;
-    box-shadow: #333 3px 3px 0px;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #333;
+    box-shadow: #333 2px 2px 0px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: clamp(1.125rem, 1.5vw, 1.375rem);
     color: #000;
     font-family: 'Lato', sans-serif;
     transition: background-color 0.3s ease-in-out;
+    border-radius: 20px;
 }
 
 .main .buttons .buttons__item .buttons__link:hover {
-    background-color: #94ADD7;
+    background-color: #333;
+    box-shadow: #333 2px 2px 0px;
     color: #fff;
-    transition: background-color 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 /* ENDING MAIN SECTION STYLES */
