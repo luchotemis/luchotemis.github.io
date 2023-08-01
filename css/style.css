@@ -136,7 +136,7 @@ header .header__logo img:hover {
 /* STARTING FOOTER STYLES */
 
 footer {
-    margin-top: 2rem;
+    margin-top: auto;
     display: flex;
     justify-content: center;
     background: #333;
@@ -146,11 +146,20 @@ footer {
     bottom: 0;
 }
 
-footer p {
+footer .footer__meta {
+    display: flex;
+}
+
+footer .footer__meta span {
     color: #fff;
     font-size: clamp(.875rem, 1.5vw, 1rem);
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+footer .footer__meta span[itemprop="email"] {
+    display: none;
 }
 
 /* ENDING FOOTER STYLES */
