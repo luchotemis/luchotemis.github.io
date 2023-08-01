@@ -146,20 +146,19 @@ footer {
     bottom: 0;
 }
 
-footer .footer__meta {
+footer .footer__meta--author {
+    display: none;
+}
+
+footer .footer__meta--copyright {
     display: flex;
 }
 
-footer .footer__meta span {
+footer .footer__meta--copyright span {
     color: #fff;
     font-size: clamp(.875rem, 1.5vw, 1rem);
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
-    margin-right: 5px;
-}
-
-footer .footer__meta span[itemprop="email"] {
-    display: none;
 }
 
 /* ENDING FOOTER STYLES */
