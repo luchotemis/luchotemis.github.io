@@ -290,7 +290,49 @@ footer .footer__meta--copyright span {
     background: #f2f2f2;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    padding: 0;
+    gap: 1rem;
 }
+
+.reto-google footer li {
+    list-style: none;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #70757a;
+}
+
+.reto-google footer h6 {
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    color: #70757a;
+    font-weight: 400;
+}
+
+.reto-google footer a {
+    text-decoration: none;
+}
+
+.reto-google footer .footer__bar--top {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+}
+
+.reto-google footer .footer__bar--bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.reto-google footer .footer__bar--bottom ul {
+    display: flex;
+}
+
+.reto-google footer .footer__bar--bottom ul li {
+    padding: 15px;
+}
+
 
 /***************** ENDING RETO GOOGLE *****************/
