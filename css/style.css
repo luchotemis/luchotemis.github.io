@@ -198,6 +198,10 @@ footer .footer__meta--copyright span {
     font-family: arial,sans-serif;
 }
 
+.reto-google header nav a:hover {
+    text-decoration: underline;
+}
+
 .reto-google header .apps-menu {
     display: none;
 }
@@ -209,12 +213,25 @@ footer .footer__meta--copyright span {
     border-radius: 50%;
 }
 
+.reto-google .header__logo-link:hover {
+    background-color: rgba(60,64,67,.08);
+}
+
 .reto-google .header__logo-link img {
     border-radius: 50%;
     padding: 4px;
 }
 
-.reto-google .gb_j {
+.reto-google header .apps {
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.reto-google header .apps:hover {
+    background-color: rgba(60,64,67,.08);
+}
+
+.reto-google header .gb_j {
     color: #5f6368;
     fill: #5f6368;
     opacity: 1;
