@@ -209,6 +209,22 @@ footer .footer__meta--copyright span {
     display: none;
 }
 
+.reto-google .nav__link.apps:hover .apps-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.reto-google .nav__link.apps:hover .apps-menu .apps-menu__item {
+    padding: 8px 0;
+}
+
+.reto-google .nav__link.apps:hover .apps-menu .apps-menu__item img {
+    width: 100%;
+    height: 100%;
+    max-width: 24px;
+    max-height: 24px;
+}
+
 .reto-google .header__logo-link {
     display: flex;
     max-width: 40px;
@@ -235,7 +251,7 @@ footer .footer__meta--copyright span {
     background-color: rgba(60,64,67,.08);
 }
 
-.reto-google header .gb_j {
+.reto-google header .apps__icon {
     color: #5f6368;
     fill: #5f6368;
     opacity: 1;
@@ -252,6 +268,10 @@ footer .footer__meta--copyright span {
     align-items: center;
     width: 100%;
     margin: auto;
+}
+
+.reto-google .main .main__title--hidden {
+    display: none;
 }
 
 .reto-google .main .main__search {
@@ -283,7 +303,7 @@ footer .footer__meta--copyright span {
 }
 
 .reto-google .main .main__search form .input__container .input__icon.input__icon--left {
-    left: 4%;
+    left: 2.5%;
     top: 50%;
     transform: translateY(-50%);
     max-width: 15px;
