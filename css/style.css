@@ -162,3 +162,62 @@ footer .footer__meta--copyright span {
 }
 
 /* ENDING FOOTER STYLES */
+
+/***************** RETO GOOGLE *****************/
+
+.reto-google {
+    background: #fff;
+}
+
+.reto-google header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 2rem;
+}
+
+.reto-google header nav a {
+    font-size: 13px;
+    line-height: 27px;
+    font-family: arial,sans-serif;
+}
+
+.reto-google header .apps-menu {
+    display: none;
+}
+
+.reto-google .footer__meta--author,
+.reto-google .footer__meta--copyright {
+    display: none;
+}
+
+.reto-google .header__logo-link {
+    display: flex;
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 50%;
+}
+
+.reto-google .header__logo-link img {
+    border-radius: 50%;
+}
+
+.reto-google .nav__link {
+    display: flex;
+}
+
+.reto-google .gb_j {
+    color: #5f6368;
+    fill: #5f6368;
+    opacity: 1;
+    width: 100%;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.reto-google footer {
+    background: #f2f2f2;
+}
+
+/***************** ENDING RETO GOOGLE *****************/
