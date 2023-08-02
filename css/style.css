@@ -174,12 +174,17 @@ footer .footer__meta--copyright span {
 
 /* Reto Google Header */
 
+.reto-google header {
+    padding: 6px;
+}
+
 .reto-google header nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    gap: 2rem;
+    gap: 1.5rem;
+    min-height: 48px;
 }
 
 .reto-google .nav__link {
@@ -199,13 +204,14 @@ footer .footer__meta--copyright span {
 
 .reto-google .header__logo-link {
     display: flex;
-    max-width: 32px;
-    max-height: 32px;
+    max-width: 40px;
+    max-height: 40px;
     border-radius: 50%;
 }
 
 .reto-google .header__logo-link img {
     border-radius: 50%;
+    padding: 4px;
 }
 
 .reto-google .gb_j {
