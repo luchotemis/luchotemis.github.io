@@ -219,6 +219,8 @@ footer .footer__meta--copyright span {
     flex-wrap: wrap;
     gap: 1rem;
     border-radius: 24px 24px 4px 4px;
+    z-index: 2;
+    padding: 24px 20px;
 }
 
 .reto-google .nav__link.apps:hover .apps-menu .apps-menu__item {
@@ -259,6 +261,7 @@ footer .footer__meta--copyright span {
     margin: 4px;
     padding: 8px;
     border-radius: 50%;
+    position: relative;
 }
 
 .reto-google header .apps:hover {
