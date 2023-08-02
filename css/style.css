@@ -288,6 +288,9 @@ footer .footer__meta--copyright span {
 
 .reto-google footer {
     background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 /***************** ENDING RETO GOOGLE *****************/
