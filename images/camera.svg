@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fbbc05;
+      }
+
+      .cls-3 {
+        fill: #ea4335;
+      }
+
+      .cls-4 {
+        fill: #4285f4;
+      }
+
+      .cls-5 {
+        fill: #34a853;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="24" height="24" vector-effect="non-scaling-stroke"/>
+  <circle class="cls-5" cx="18.01" cy="18" r="2" vector-effect="non-scaling-stroke"/>
+  <circle class="cls-4" cx="12.01" cy="13" r="3" vector-effect="non-scaling-stroke"/>
+  <path class="cls-3" d="m3,16.9c0,2.26,1.84,4.1,4.1,4.1h4.9v-2h-5.01c-1.1-.01-1.99-1.04-1.99-2.25v-2.25h-2v2.4Z" vector-effect="non-scaling-stroke"/>
+  <path class="cls-2" d="m21,9.1c0-2.26-1.84-4.1-4.1-4.1h-2.4l2.5,2c1.1,0,2,1.04,2,2.25v3.75h2v-3.9Z" vector-effect="non-scaling-stroke"/>
+  <path class="cls-4" d="m14,3h-4l-1.5,2h-1.4c-2.26,0-4.1,1.84-4.1,4.1v2.4h2v-2.25c0-1.21.9-2.25,2-2.25h10l-3-4Z" vector-effect="non-scaling-stroke"/>
+</svg>

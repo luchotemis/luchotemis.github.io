@@ -277,6 +277,20 @@ footer .footer__meta--copyright span {
     margin: 0 auto;
     max-width: 584px;
     width: 100%;
+    padding-left: 2.5rem;
+    position: relative;
+}
+
+.reto-google .main [name="search"]::before {
+    content: "";
+    background-image: url("luchotemis.github.io/images/magnifier.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .reto-google .main [name="search"]:hover {

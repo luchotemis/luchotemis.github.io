@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Component_23_1" data-name="Component 23 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.79 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbbc05;
+      }
+
+      .cls-2 {
+        fill: #ea4335;
+      }
+
+      .cls-3 {
+        fill: #4285f4;
+      }
+
+      .cls-4 {
+        fill: #34a853;
+      }
+    </style>
+  </defs>
+  <g id="Group_114" data-name="Group 114">
+    <g id="Group_110" data-name="Group 110">
+      <path id="Path_82" data-name="Path 82" class="cls-3" d="m8.4,15.6c1.99,0,3.6-1.57,3.6-3.56V3.61C12,1.62,10.39,0,8.4,0c-1.99,0-3.6,1.61-3.6,3.6,0,0,0,.01,0,.02v8.42c0,1.99,1.61,3.56,3.6,3.56Z"/>
+    </g>
+    <g id="Group_111" data-name="Group 111">
+      <path id="Path_83" data-name="Path 83" class="cls-4" d="m7.2,19.3h2.4v4.7h-2.4v-4.7Z"/>
+    </g>
+    <g id="Group_112" data-name="Group 112">
+      <path id="Path_84" data-name="Path 84" class="cls-1" d="m2.46,17.84c-1.52-1.6-2.46-3.4-2.46-5.84h2.4c0,1.74.67,2.9,1.76,4.06v.38l-1.38,1.42h-.32Z"/>
+    </g>
+    <g id="Group_113" data-name="Group 113">
+      <path id="Path_85" data-name="Path 85" class="cls-2" d="m8.4,17.92c-1.59,0-3.12-.67-4.25-1.86l-1.69,1.79c1.51,1.61,3.62,2.56,5.94,2.56,4.64,0,8.39-3.5,8.39-8.4h-2.39c0,3.5-2.69,5.92-6,5.92Z"/>
+    </g>
+  </g>
+</svg>
