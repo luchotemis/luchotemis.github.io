@@ -254,19 +254,26 @@ footer .footer__meta--copyright span {
     margin: auto;
 }
 
-.main .main__search {
+.reto-google .main .main__search {
     padding: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.main .main__search form {
+.reto-google .main .main__search form {
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     max-width: 584px;
+    position: relative;
+}
+
+.reto-google .main .main__search form .input__container {
+    display: flex;
+    width: 100%;
+    position: relative;
 }
 
 .reto-google .main [name="search"] {
@@ -275,22 +282,8 @@ footer .footer__meta--copyright span {
     min-height: 44px;
     padding: 0;
     margin: 0 auto;
-    max-width: 584px;
     width: 100%;
     padding-left: 2.5rem;
-    position: relative;
-}
-
-.reto-google .main [name="search"]::before {
-    content: "";
-    background-image: url("luchotemis.github.io/images/magnifier.svg");
-    background-repeat: no-repeat;
-    background-size: 24px;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
 }
 
 .reto-google .main [name="search"]:hover {

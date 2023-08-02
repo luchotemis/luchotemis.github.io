@@ -60,9 +60,9 @@
                 <li class="apps-menu__item"></li>
                 <li class="apps-menu__item"></li>
             </ul>
-                <a href="https://accounts.google.com/SignOutOptions" class="header__logo-link">
-                    <img src="../images/lucho-avatar.png" alt="User logo">
-                </a>
+            <a href="https://accounts.google.com/SignOutOptions" class="header__logo-link">
+                <img src="../images/lucho-avatar.png" alt="User logo">
+            </a>
 
         </nav>
     </header>
@@ -72,7 +72,18 @@
         </div>
         <div class="main__search">
             <form>
-                <input type="text" name="search" class="main__search-input">
+                <div class="input__container">
+                    <span class="input__icon input__icon--left">
+                        <img src="../images/magnifier.svg" alt="Magnifier icon">
+                    </span>
+                    <input type="text" name="search" class="main__search-input">
+                    <span class="input__icon input__icon--right">
+                        <img src="../images/voice.svg" alt="Voice icon">
+                    </span>
+                    <span class="input__icon input__icon--right--two">
+                        <img src="../images/camera.svg" alt="Camera icon">
+                    </span>
+                </div>
                 <div class="main__search-buttons-container">
                     <input type="submit" value="Buscar con Google" class="main__search-button">
                     <input type="submit" value="Voy a tener suerte" class="main__search-button">
