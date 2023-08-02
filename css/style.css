@@ -167,6 +167,9 @@ footer .footer__meta--copyright span {
 
 .reto-google {
     background: #fff;
+    display: flex;
+    flex-direction: column; /* Alinear los elementos verticalmente */
+    height: 100vh; 
 }
 
 /* Reto Google Header */
@@ -221,6 +224,7 @@ footer .footer__meta--copyright span {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: auto;
 }
 
 .main .main__search {
