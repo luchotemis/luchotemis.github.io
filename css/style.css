@@ -328,15 +328,31 @@ footer .footer__meta--copyright span {
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 1rem;
 }
 
 .reto-google footer li {
     list-style: none;
+    text-decoration: none;
     font-family: arial,sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: #70757a;
+    padding: 0;
+}
+
+.reto-google footer a {
+    list-style: none;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #70757a;
+    padding: 0;
+}
+
+.reto-google footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .reto-google footer h6 {
