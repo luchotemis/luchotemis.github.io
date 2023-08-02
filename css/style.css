@@ -183,13 +183,16 @@ footer .footer__meta--copyright span {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    gap: 1.5rem;
     min-height: 48px;
 }
 
 .reto-google .nav__link {
     display: flex;
     align-items: center;
+}
+
+.reto-google .nav__link.text {
+    margin-right: 15px;
 }
 
 .reto-google header nav a {
@@ -223,6 +226,7 @@ footer .footer__meta--copyright span {
 }
 
 .reto-google header .apps {
+    margin: 4px;
     padding: 8px;
     border-radius: 50%;
 }
