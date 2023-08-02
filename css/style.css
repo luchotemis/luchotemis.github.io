@@ -211,11 +211,25 @@ footer .footer__meta--copyright span {
 
 .reto-google .nav__link.apps:hover .apps-menu {
     display: flex;
-    flex-direction: column;
+    background-color: rgb(248, 250, 253);
+    position: absolute;
+    top: 140%;
+    right: 5%;
+    min-width: 320px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 24px 24px 4px 4px;
 }
 
 .reto-google .nav__link.apps:hover .apps-menu .apps-menu__item {
     padding: 8px 0;
+    list-style: none;
+}
+
+.reto-google .nav__link.apps:hover .apps-menu .apps-menu__item a {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }
 
 .reto-google .nav__link.apps:hover .apps-menu .apps-menu__item img {
